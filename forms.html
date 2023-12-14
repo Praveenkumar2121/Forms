@@ -1,0 +1,115 @@
+<html>
+<style>
+label{
+width:155px;
+display:inline-block;
+text-align:right;
+margin-right:2px;
+margin-top:30px;
+font-family: 'Vibur', cursive;
+
+}
+#role{
+margin-top:-40px;
+}
+#def{
+margin-top:-115px;
+}
+#like{
+margin-top:-30px;
+
+}
+#luck{
+margin-top:-110px;
+}
+
+
+
+h1{
+margin-left:600px;
+font-family: 'Cedarville Cursive', cursive;
+}
+div{
+margin-left:480px;
+margin-right:100px;
+}
+lable2{
+padding:5px;
+margin-right:10px;
+display:inline-block;
+
+
+
+}
+.align{
+display:flex;
+flex-direction:column;
+margin-bottom:10px;
+
+
+}
+fieldset{
+background-color: #5a4980;
+}
+::placeholder{
+  color:#306693;
+
+}
+</style>
+<body bgcolor=#704980
+>
+<h1>SURVEY FORM<size="+10"></h1>
+<form>
+<fieldset>
+<div>
+<label>*Name</label>
+
+<input type="text" name="name" placeholder="Enter your name"><br>
+</div>
+<div>
+<label>*Email</label>
+<input type="email" name="email" placeholder="Enter your Email Id"><br>
+</div>
+<div>
+<label>*Age</label>
+<input type="number" name="age" placeholder="Select your Age"></center><br>
+</div>
+<label>which option best describes your current role? </label>
+<center><select name="role" id="role" >
+<option value=""disabled selected hidden > Roles</option>
+<option value="cooking">cooking</option>
+<option value="drawing">Drawing</option>
+<option value="running">Running</option>
+<option value="singing">Singing</option>
+<option value="Musician">Musician</option><br>
+</select><br></center>
+
+<label>*How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+<center><input type="radio" class="align" id="def">
+<label2>Definitely</label2>
+<br>
+<input type="radio" class="align">
+<label2>Maybe</label>
+<br>
+<input type="radio" class="align">
+<label2>Not sure </label><br></center>
+<label>What do you like most in Fcc</label>
+<center><select name="like" id="like">
+<option value=""disabled selected hidden>Food</option>
+<option value="cooking">cake</option>
+<option value="drawing">Drinks</option>
+<option value="running">juice</option>
+<option value="singing">muffles</option>
+<option value="Musician">cookies</option><br>
+</select><br></center>
+<label>Things that should be improved in the future<br>
+(Check all that apply):</label><br>
+<center><input type="checkbox" id="luck" class="align">
+<label2>Front-end Projects</label><br>
+<input type="checkbox" id="align" class="align">
+<label2 >Back-end Projects</label><br>
+<input type="checkbox" id="align" class="align">
+<label2>Data Visualtization</label><br></center>
+</form>
+</body>
+</html>
